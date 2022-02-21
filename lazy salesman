@@ -1,0 +1,15 @@
+t=int(input())
+for i in range(t):
+    n,w=map(int,input().split())
+    l=[]
+    l=list(map(int,input().split()))
+    sum=c=0
+    l.sort()
+    
+    for i in reversed(l):
+        sum=sum+i
+        c=c+1 
+        if sum>=w:
+            break
+
+    print(n-c)
