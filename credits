@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(0,t):
+    a=int(input())
+    if a>65:
+        print("overload")
+    elif a<35:
+        print("underload")
+    else:
+        print("normal")
